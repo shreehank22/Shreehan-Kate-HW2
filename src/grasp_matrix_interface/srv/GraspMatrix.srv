@@ -1,0 +1,10 @@
+# Request: 3 contact points and their unit normal directions (2D)
+float64[3] px
+float64[3] py
+float64[3] nx
+float64[3] ny
+---
+# Response: flattened grasp matrix, row-major, shape (rows, cols)
+float64[] grasp_matrix
+int32 rows
+int32 columns
